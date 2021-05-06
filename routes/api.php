@@ -18,7 +18,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/conversions', [ConversionController::class, 'index']);
 Route::post('/conversions/convert', [ConversionController::class, 'convert']);
 Route::get('/conversions/top', [ConversionController::class, 'top']);
-
-//Route::post('/conversions/convert', function () {
-//    return 545454;
-//});
